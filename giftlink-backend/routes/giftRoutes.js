@@ -1,4 +1,7 @@
-
+const express = require('express');
+const router = express.Router();
+const connectToDatabase = require('../models/db');
+const logger = require('../logger');
 
 router.get('/', async (req, res) => {
     try {
@@ -58,4 +61,4 @@ router.post('/', async (req, res, next) => {
     }
 });
 
-module.exports = router;
+export default router;
