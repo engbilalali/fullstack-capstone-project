@@ -64,16 +64,14 @@ function MainPage() {
 
                             <div className="card-body">
 
-                                {/* // Task 5: Display gift image or placeholder */}
-                                {/* // Write your code below this line */}
+                                
                                 <h5 className="card-title">{gift.name}</h5>
 
                                 <p className={`card-text ${getConditionClass(gift.condition)}`}>
                                 {gift.condition}
                                 </p>
 
-                                {/* // Task 6: Display gift image or placeholder */}
-                                {/* // Write your code below this line */}
+                                
                                 <p className="card-text">{formatDate(gift.date_added)}</p>
                                 
 
